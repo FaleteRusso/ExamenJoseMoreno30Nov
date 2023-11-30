@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d499dc7-8bdf-4092-adff-c159b189c5af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenJoseMoreno30Nov.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/DadoEj7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/PruebaEj7.java" afterDir="false" />
+    <list default="true" id="1d499dc7-8bdf-4092-adff-c159b189c5af" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ej4AB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,26 +20,33 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2YtqrSeklWM7RAmyBGdOonMKU8A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PruebaEj7">
+}</component>
+  <component name="RunManager" selected="Application.Ej4AB">
     <configuration name="Ej3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ej3" />
       <module name="ExamenJoseMoreno30Nov" />
@@ -80,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ej5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ej5" />
+    <configuration name="Ej4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ej4" />
       <module name="ExamenJoseMoreno30Nov" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej4AB" />
         <item itemvalue="Application.PruebaEj7" />
         <item itemvalue="Application.Ej4" />
         <item itemvalue="Application.Ej3" />
         <item itemvalue="Application.Ej6" />
-        <item itemvalue="Application.Ej5" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +131,51 @@
       <option name="presentableId" value="Default" />
       <updated>1701355425993</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701362312117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701362312117</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701362396314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701362396314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701362400871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701362400871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701363295682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701363295682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701363391074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701363391074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

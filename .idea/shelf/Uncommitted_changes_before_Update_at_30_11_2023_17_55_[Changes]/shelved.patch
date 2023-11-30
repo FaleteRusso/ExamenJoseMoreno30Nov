@@ -1,0 +1,22 @@
+Index: src/com/corenetworks/presentacion/Ej4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.corenetworks.presentacion;\r\n\r\npublic class Ej4 {\r\n    public static void main(String[] args) {\r\n        //Declarar un array de 5 numeros\r\n        //poner los valores desde codigo\r\n        //obtener el numero mas pequeño\r\n        //2 seleccionar el numero mayor\r\n\r\n        int[] num ={-2,4,45,-7,3,-2,8,-31,5,8,23,-6,-19,23,45,7,12,-12};\r\n\r\n        int valorMasPequeno = num[0];\r\n        for (int i=0;i< num.length;i++) {\r\n            if (num[i] < valorMasPequeno) {\r\n                valorMasPequeno = num[i];\r\n            }\r\n        }\r\n        System.out.println(\"El valor más pequeño es: \" + valorMasPequeno);\r\n\r\n        int valorMasAlto = num[0];\r\n        for (int i = 0; i < num.length; i++) {\r\n            if (num[i] > valorMasAlto) {\r\n                valorMasAlto = num[i];\r\n            }\r\n        }\r\n        System.out.println(\"El valor más alto es: \" + valorMasAlto);\r\n\r\n    }\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/corenetworks/presentacion/Ej4.java b/src/com/corenetworks/presentacion/Ej4.java
+--- a/src/com/corenetworks/presentacion/Ej4.java	(revision 59116cd4eb80c1dc1533de111ac36cb379770884)
++++ b/src/com/corenetworks/presentacion/Ej4.java	(date 1701363289932)
+@@ -2,11 +2,6 @@
+ 
+ public class Ej4 {
+     public static void main(String[] args) {
+-        //Declarar un array de 5 numeros
+-        //poner los valores desde codigo
+-        //obtener el numero mas pequeño
+-        //2 seleccionar el numero mayor
+-
+         int[] num ={-2,4,45,-7,3,-2,8,-31,5,8,23,-6,-19,23,45,7,12,-12};
+ 
+         int valorMasPequeno = num[0];

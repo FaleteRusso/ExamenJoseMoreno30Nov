@@ -2,11 +2,12 @@ package com.corenetworks.presentacion;
 
 import java.util.Scanner;
 
-public class Ej3 {public static void main(String[] args) {
-    Scanner notaExamen = new Scanner(System.in);
+public class Ej3 {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
     System.out.println("Escriba un número de 1 a 8");
     int descripcion = 0;
-  descripcion = notaExamen.nextInt();
+  descripcion = sc.nextInt();
     switch (descripcion){
         case 1:
             System.out.println("Para microcoche");
@@ -34,8 +35,7 @@ public class Ej3 {public static void main(String[] args) {
             break;
             default:
             System.out.println("el numero introducido no esta en la escala de 0 a 8");
-            notaExamen.close();
+            sc.close();
     }
-
 }
 }

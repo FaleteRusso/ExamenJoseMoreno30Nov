@@ -1,15 +1,12 @@
 package com.corenetworks.modelo;
 
-import java.security.PublicKey;
 import java.util.Objects;
 import java.util.Random;
 
-public class Ej7 {
+public class DadoEj7 {
     private Random aleatorio;
 
-
-
-    public String dibujaUno
+    public String dibujaUno;
     public String dibujaDos;
     public String dibujarTres;
     public String dibujjarCuatro;
@@ -18,10 +15,10 @@ public class Ej7 {
     public String lanzarDado;
 
 
-    public Ej7() {
+    public DadoEj7(int i, String number, String id, String dibujarTres, String dibujjarCuatro, String dibujarcinco, String dibujarSeis, String yes) {
     }
 
-    public Ej7(Random aleatorio, String dibujaUno, String dibujaDos, String dibujarTres, String dibujjarCuatro, String dibujarcinco, String dibujarSeis, String lanzarDado) {
+    public DadoEj7(Random aleatorio, String dibujaUno, String dibujaDos, String dibujarTres, String dibujjarCuatro, String dibujarcinco, String dibujarSeis, String lanzarDado) {
         this.aleatorio = aleatorio;
         this.dibujaUno = dibujaUno;
         this.dibujaDos = dibujaDos;
@@ -36,7 +33,7 @@ public class Ej7 {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Ej7 ej7 = (Ej7) o;
+        DadoEj7 ej7 = (DadoEj7) o;
         return Objects.equals(aleatorio, ej7.aleatorio) && Objects.equals(dibujaUno, ej7.dibujaUno) && Objects.equals(dibujaDos, ej7.dibujaDos) && Objects.equals(dibujarTres, ej7.dibujarTres) && Objects.equals(dibujjarCuatro, ej7.dibujjarCuatro) && Objects.equals(dibujarcinco, ej7.dibujarcinco) && Objects.equals(dibujarSeis, ej7.dibujarSeis) && Objects.equals(lanzarDado, ej7.lanzarDado);
     }
 
